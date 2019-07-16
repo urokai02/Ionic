@@ -21,7 +21,7 @@ This code repository helps you to understand the correct implementation of the n
 <a name="tech-desc"></a>
 # Technical Information
 
-This repository uses the DSB Mobile version 5.0. If you are using a previous version of the SDK, it is recommended to check the *Upgrade Guide* to get up to date with the benefits of the latest version of DSB Mobile.
+This repository uses DSB Mobile 5.0. If you are using a previous version of the SDK, it is recommended to check the *Upgrade Guide* to get up to date with the benefits of the latest version of DSB Mobile.
 
 ### iOS
 
@@ -167,13 +167,8 @@ return;
 }
 
 .
-
 .
-
 .
-
-.
-
 }
 ```
 
@@ -191,7 +186,7 @@ When you execute the previous line, the wrapper is included in the following pat
 
 Move the **dsbsdk-plugin** folder from **ionic-native-master/dist/@ionic-native/plugins** to the modules of the Ionic project **node_modules/@ionic-native**.
 
-Now, you can use DSB Mobile as shown below:
+You can use DSB Mobile as shown below:
 
 ![Using SDK TS](img/usingSDK.png)
 
